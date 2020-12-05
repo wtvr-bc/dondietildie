@@ -1,0 +1,126 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+header {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    background-image: url("img/67886806_224521058468979_3440862111668011674_n.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
+.container1 li {
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+    margin: 30px 40px;
+    font-size: 22px;
+}
+.container1 a {
+    color: white;
+    text-decoration: unset;
+}
+.logo {
+    background-image: url("img/ダウンロード.jpeg");
+    margin-top: 20px;
+    border-radius: 30%;
+    width: 250px;
+    height: 150px;
+    /* background: red; */
+    text-indent: -99999999px;
+}
+
+@media (max-width: 1044px) {
+    header {
+        height: 150px;
+        background-size: cover;
+    }
+    .container1 li {
+        font-size: 20px;
+        margin: 20px 35px;
+    }
+    .logo {
+        width: 140px;
+        height: 100px;
+    }
+}
+@media (max-width: 852px) {
+    header {
+        height: 150px;
+        background-size: cover;
+    }
+    .container1 li {
+        font-size: 16px;
+        margin: 20px 35px;
+    }
+    .logo {
+        width: 100px;
+        height: 70px;
+    }
+}
+@media (max-width: 732px) {
+    header {
+        height: 150px;
+        background-size: cover;
+    }
+    .container1 li {
+        font-size: 16px;
+        margin: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: 70px;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        height: 150px;
+        background-size: cover;
+    }
+    .container1 li {
+        font-size: 16px;
+        margin: 10px;
+    }
+    .logo {
+        background-image: none;
+    }
+}
+
+
+main {
+    text-align: center;
+}
+.choises {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex: wrap;
+}
+.choise {
+    width: 70%;
+    border-radius: 50%;
+}
+
+@media (min-width:320px) and (max-width: 736px) {
+    .choise {
+        /* width: 70%; */
+    }
+    figure {
+        margin: 0px 0px;
+    }
+}
+
+footer {
+    color: white;
+    height: 100px;
+    background: black;
+    font-weight: normal;
+    margin-top: 40px;
+}
+footer p {
+    text-align: center;
+    line-height: 100px;
+}
+
